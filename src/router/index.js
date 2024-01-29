@@ -20,7 +20,7 @@ const routes = [
     name: 'jobs',
     component: Jobs,
   },
-  { path: '/jobs/:id', name: 'jobDetails', component: JobDetails },
+  { path: '/jobs/:id', name: 'jobDetails', component: JobDetails, props: true },
 ];
 
 const router = createRouter({
